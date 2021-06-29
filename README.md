@@ -12,8 +12,9 @@ Install python3 and pip3
 
 ### Bluetooth
 
-Disable ERTM so Pi can pair with the XBOX One controller
-`echo 'options bluetooth disable_ertm=Y' | sudo tee -a /etc/modprobe.d/bluetooth.conf`
+Disable ERTM so Pi can pair with the XBOX One controller. Refer to [this article](https://howchoo.com/pi/xbox-controller-raspberry-pi) for more information
+
+> echo 'options bluetooth disable_ertm=Y' | sudo tee -a /etc/modprobe.d/bluetooth.conf
 
   `bluetoothctl
   power on

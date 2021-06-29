@@ -11,7 +11,7 @@ Enable bluetooth on first bootup or later through `dietpi-config`
 Install python3 and pip3
 
 ### Bluetooth
-  bluetoothctl
+  `bluetoothctl
   power on
   scan on
-  connect <MAC address here>
+  connect <MAC address here>`

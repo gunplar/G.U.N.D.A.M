@@ -14,4 +14,5 @@ Install python3 and pip3
   `bluetoothctl
   power on
   scan on
-  connect <MAC address here>`
+  connect <MAC address here>
+  trust <MAC address here>`

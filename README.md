@@ -21,3 +21,6 @@ Disable ERTM so Pi can pair with the XBOX One controller. Refer to [this article
   scan on
   connect <MAC address here>
   trust <MAC address here>`
+
+To revert to stable version: https://www.raspberrypi.org/forums/viewtopic.php?t=268915
+If `No default controller available` in bluetoothctl, install `pi-bluetooth`, use `modprobe bluetooth` and `systemctl start bluetooth`

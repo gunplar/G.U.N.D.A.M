@@ -16,6 +16,8 @@ Enable bluetooth on first bootup or later through `dietpi-config`
 
 Install python3 and pip3
 
+pip3 install adafruit-circuitpython-servokit
+
 ### Bluetooth
 
 Disable ERTM so Pi can pair with the XBOX One controller. Refer to [this article](https://howchoo.com/pi/xbox-controller-raspberry-pi) for more information

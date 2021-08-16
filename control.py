@@ -14,7 +14,7 @@ class servoThread (threading.Thread):
        self.currentAngle = initAngle
        #self.threadQuitKey=threadQuitKey
        kit.servo[servoID].actuation_range = 180
-       kit.servo[servoID].set_pulse_width_range(350, 2250)
+       kit.servo[servoID].set_pulse_width_range(350, 2250)  #500 2400 for non Tower Pro batch
        kit.servo[servoID].angle = initAngle
        self.start()
    def run(self):
